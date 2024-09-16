@@ -1,10 +1,17 @@
 import React from 'react'
 import './App.css'
+import Button1 from './Button1'
+import Button2 from './Button2'
+import Button3 from './Button3'
 
 function App() {
 
   return (
-      <h1 className='heading'>this is day-0 of 100-days-of-code</h1>
+    <div className='buttons'>
+      <Button1/>
+      <Button2/>
+      <Button3/>
+    </div>
   )
 }
 

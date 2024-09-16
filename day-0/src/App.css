@@ -1,11 +1,14 @@
-.heading {
+* {
+  background-color: bisque;
+}
+
+.click {
   display: flex;
   justify-content: center;
   margin: auto;
   align-self: center;
-  margin: 24% auto 25% auto;
 }
 
-* {
-  background-color: bisque;
+.buttons {
+  margin: auto;
 }
